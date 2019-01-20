@@ -1,0 +1,128 @@
+{
+   "FACTMODIFY" : 0,
+   "PRS LEVL" : 77,
+   "ctrls" : {
+      "altTreadle" : {
+         "LNK" : "../../fxc/0/fx/PEDAL",
+         "MAX" : 99,
+         "MIN" : 0
+      },
+      "ctrlA" : {
+         "LNK" : "../../fxc/7/ENABLE"
+      },
+      "ctrlB" : {
+         "LNK" : "../../fxc/8/ENABLE"
+      },
+      "ctrlC" : {
+         "LNK" : "../../fxc/9/ENABLE"
+      },
+      "ctrlVSw" : {
+         "LNK" : "../../fxc/0/ENABLE"
+      },
+      "lfo1" : {},
+      "treadle" : {
+         "LNK" : "../../fxc/6/VOLUME",
+         "MAX" : 99,
+         "MIN" : 0
+      }
+   },
+   "fxc" : {
+      "0" : {
+         "ENABLE" : 1,
+         "fx" : {
+            "PEDAL" : 0,
+            "WAH LEVL" : 6,
+            "name" : "wah.CRY WAH"
+         }
+      },
+      "1" : {
+         "ENABLE" : 0,
+         "fx" : {
+            "ATTACK" : 0,
+            "LEVEL" : 70,
+            "SUSTAIN" : 50,
+            "TONE" : 50,
+            "name" : "cmpr.DIGICOMP"
+         }
+      },
+      "2" : {
+         "ENABLE" : 1,
+         "fx" : {
+            "GAIN" : 30,
+            "LEVEL" : 26,
+            "name" : "dist.DOD 250"
+         }
+      },
+      "3" : {
+         "ENABLE" : 1,
+         "fx" : {
+            "BASS" : 84,
+            "CABINET" : 15,
+            "GAIN" : 99,
+            "LEVEL" : 70,
+            "MID" : 90,
+            "TREBLE" : 90,
+            "name" : "amp.99LEGACY"
+         }
+      },
+      "4" : {
+         "ENABLE" : 1,
+         "HIGH BW" : 1,
+         "HIGHFREQ" : 15,
+         "HIGHLEVL" : 22,
+         "LOW BW" : 1,
+         "LOW FREQ" : 9,
+         "LOW LEVL" : 15,
+         "MID BW" : 1,
+         "MID FREQ" : 18,
+         "MID LEVL" : 17,
+         "name" : "eq.EQ"
+      },
+      "5" : {
+         "ENABLE" : 1,
+         "fx" : {
+            "ATTACK" : 0,
+            "ATTEN" : 99,
+            "RELEASE" : 0,
+            "THRESHLD" : 45,
+            "name" : "gate.GATE"
+         }
+      },
+      "6" : {
+         "VOLUME" : 99,
+         "name" : "vol.VOLUME"
+      },
+      "7" : {
+         "ENABLE" : 1,
+         "fx" : {
+            "INTENSTY" : 30,
+            "SPEED" : 18,
+            "WIDTH" : 75,
+            "name" : "mod.TCCHORUS"
+         }
+      },
+      "8" : {
+         "ENABLE" : 0,
+         "fx" : {
+            "DLY LEVL" : 23,
+            "DUK LEVL" : 15,
+            "DUKTHRSH" : 28,
+            "REPEATS" : 20,
+            "TAP DIV" : 3,
+            "TIME" : 400,
+            "name" : "dly.DIGITAL"
+         }
+      },
+      "9" : {
+         "ENABLE" : 1,
+         "fx" : {
+            "DECAY" : 60,
+            "LIVENESS" : 75,
+            "PREDELAY" : 1,
+            "RVB LEVL" : 35,
+            "name" : "rvb.LEXSTUDO"
+         }
+      }
+   },
+   "name" : "STILL NIGHT"
+}

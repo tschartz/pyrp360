@@ -1,0 +1,5666 @@
+{
+"wah.CRY WAH" : 
+{ "WAH LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"dB",
+  "MIN":-6, 
+  "MAX":12
+  },
+"PEDAL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"wah.CLYDEWAH" : 
+{ "WAH LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"dB",
+  "MIN":-6, 
+  "MAX":12
+  },
+"PEDAL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"wah.FULLRANG" : 
+{ "WAH LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"dB",
+  "MIN":-6, 
+  "MAX":12
+  },
+"PEDAL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"cmpr.DIGICOMP" : 
+{ "LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SUSTAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TONE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"ATTACK":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"cmpr.CS COMP" : 
+{ "LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SUSTAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"ATTACK":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"cmpr.DYNOCOMP" : 
+{ "OUTPUT":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SENSTVTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.SCREAMER" : 
+{ "DRIVE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TONE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.808" : 
+{ "OVERDRIV":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TONE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.TS MOD" : 
+{ "DRIVE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TONE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.SD ODRV" : 
+{ "DRIVE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TONE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.OD ODRV" : 
+{ "OVERDRIV":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.SPARKDRV" : 
+{ "GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TONE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"CLEAN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"VOLUME":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.GUY ODRV" : 
+{ "GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.DOD 250" : 
+{ "GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.REDLINE" : 
+{ "GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LOW":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"HIGH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.AMPDRIVR" : 
+{ "GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"MIDBOOST":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.OC DRIVE" : 
+{ "DRIVE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TONE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"HP LP":
+{"TYPE":"list", "SIZE":2, "0":"HP","1":"LP"},
+"VOLUME":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.RODENT" : 
+{ "DIST":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"FILTER":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"VOLUME":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.MX DIST" : 
+{ "DIST":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"OUTPUT":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.DS DIST" : 
+{ "DIST":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TONE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.GRUNGE" : 
+{ "GRUNGE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BUTT":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"FACE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LOUD":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.ZONE" : 
+{ "GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LOW":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"MID":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"MID FREQ":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"HIGH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.DEATH" : 
+{ "LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LOW":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"MID":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"HIGH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.GONKULTR" : 
+{ "GUNK":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SMEAR":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SUCK":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"HEAVE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.8TAVIA" : 
+{ "DRIVE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"VOLUME":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.FUZZLATR" : 
+{ "FUZZ":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TONE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LOOSETIGHT":
+{"TYPE":"list", "SIZE":2, "0":"LOOSE","1":"TIGHT"},
+"VOLUME":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.CLASCFUZ" : 
+{ "FUZZ":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TONE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"VOLUME":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.FUZZYFAC" : 
+{ "FUZZ":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"VOLUME":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dist.BIG PI" : 
+{ "SUSTAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TONE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"VOLUME":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"amp.57 CHAMP" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.57DELUXE" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.59BASSMN" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.62BASSMN" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.65 TWIN" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.65DLUXRV" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.45 JTM" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.68 PLEXI" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.JUMPPANL" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.MASTRVOL" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.800 JCM" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.900 JCM" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.2000 JCM" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.AC15" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.AC30 TB" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.HIWATTAG" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.MARK IIC" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.MARK IV" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DUALRECT" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.TRIPRECT" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.22CALIBR" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.99LEGACY" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.MATCHC30" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.CHIEF" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.SLDNO100" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.SUPERGRP" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.GA-40" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.OR-120" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.PV 5150" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.RG100" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.JAZZ 120" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.SOLAR100" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIG SOLO" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIGMETAL" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIGBRGHT" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIGCHUNK" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIGCLEAN" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIG GAIN" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIGBLUES" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIG FUZZ" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIGSPANK" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.2101 CLN" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.2101 SAT" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIGCRNCH" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIGMNSTR" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIGTWEED" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIGBLACK" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIGSTONR" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIGDKMTL" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIGTRANS" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIGBROWN" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DIG MOSH" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"amp.DREAD AC" : 
+{ "CABINET":
+{   "TYPE":"none"  },
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":1.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":1.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":1.0, 
+  "MAX":10.0
+  }
+},
+"amp.JUMBO AC" : 
+{ "CABINET":
+{   "TYPE":"none"  },
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":1.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":1.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":1.0, 
+  "MAX":10.0
+  }
+},
+"amp.A DIRECT" : 
+{ "CABINET":
+{"TYPE":"list", "SIZE":27,
+"0":"1x8: Champ",
+"1":"1x12: D-Luxe",
+"2":"1x12: LuxRev",
+"3":"1x12: AC British",
+"4":"1x12: Gib-GA",
+"5":"2x12: Bass Man",
+"6":"2x12: Twin",
+"7":"2x12: AC British",
+"8":"2x12: Jazz",
+"9":"2x15: JBL",
+"10":"4x10: Bass Man",
+"11":"4x12: Classic",
+"12":"4x12: Green",
+"13":"4x12: Fane",
+"14":"4x12: Boutique",
+"15":"4x12: V30",
+"16":"4x12: Recto",
+"17":"4x12: Solo",
+"18":"2x12: Bright",
+"19":"4x12: Metal",
+"20":"4x12: Rock",
+"21":"4x12: Alternative",
+"22":"4x12: Vintage",
+"23":"4x12: Chunk",
+"24":"4x12: Spank",
+"25":"2101 Speaker",
+"26":"Direct"
+},
+"GAIN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BASS":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"MID":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  },
+"TREBLE":
+{
+  "TYPE":"float", 
+  "UNIT":"",
+  "MIN":0.0, 
+  "MAX":10.0
+  }
+},
+"dly.ANALOG" : 
+{ "TIME":
+{
+  "TYPE":"float", 
+  "UNIT":"sec",
+  "MIN":0, 
+  "MAX":5.000
+  },
+"REPEATS":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DLY LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TAP DIV":
+{"TYPE":"list", "SIZE":5, "0":"3 QUARTER", "1":"EIGHT", "2":"DOT EIGHT", "3":"QUARTER", "4":"HALF"}
+},
+"dly.DM DELAY" : 
+{ "REPEATS":
+{
+  "TYPE":"float", 
+  "UNIT":"sec",
+  "MIN":0.024, 
+  "MAX":0.310
+  },
+"INTENSTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"ECHO":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dly.DIGITAL" : 
+{ "TIME":
+{
+  "TYPE":"float", 
+  "UNIT":"sec",
+  "MIN":0, 
+  "MAX":5.000
+  },
+"REPEATS":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DLY LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TAP DIV":
+{"TYPE":"list", "SIZE":5, "0":"3 QUARTER", "1":"EIGHT", "2":"DOT EIGHT", "3":"QUARTER", "4":"HALF"},
+"DUKTHRSH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DUK LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dly.MODULATE" : 
+{ "TIME":
+{
+  "TYPE":"float", 
+  "UNIT":"sec",
+  "MIN":0.010, 
+  "MAX":5.000
+  },
+"REPEATS":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DEPTH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DLY LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TAP DIV":
+{"TYPE":"list", "SIZE":5, "0":"3 QUARTER", "1":"EIGHT", "2":"DOT EIGHT", "3":"QUARTER", "4":"HALF"}
+},
+"dly.PINGPONG" : 
+{ "TIME":
+{
+  "TYPE":"float", 
+  "UNIT":"sec",
+  "MIN":0, 
+  "MAX":5.000
+  },
+"REPEATS":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DLY LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TAP DIV":
+{"TYPE":"list", "SIZE":5, "0":"3 QUARTER", "1":"EIGHT", "2":"DOT EIGHT", "3":"QUARTER", "4":"HALF"},
+"DUKTHRSH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DUK LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"dly.TAPE" : 
+{ "REPEATS":
+{
+  "TYPE":"float", 
+  "UNIT":"sec",
+  "MIN":0.010, 
+  "MAX":5.000
+  },
+"DLY LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"WOW":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"FLUTTER":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TAP DIV":
+{"TYPE":"list", "SIZE":5, "0":"3 QUARTER", "1":"EIGHT", "2":"DOT EIGHT", "3":"QUARTER", "4":"HALF"}
+},
+"dly.ECHOPLEX" : 
+{ "TIME":
+{
+  "TYPE":"float", 
+  "UNIT":"sec",
+  "MIN":0.110, 
+  "MAX":0.870
+  },
+"REPEATS":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"VOLUME":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TAP DIV":
+{"TYPE":"list", "SIZE":5, "0":"3 QUARTER", "1":"EIGHT", "2":"DOT EIGHT", "3":"QUARTER", "4":"HALF"}
+},
+"dly.LO FI" : 
+{ "TIME":
+{
+  "TYPE":"float", 
+  "UNIT":"sec",
+  "MIN":0, 
+  "MAX":5.000
+  },
+"REPEATS":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DLY LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"TAP DIV":
+{"TYPE":"list", "SIZE":5, "0":"3 QUARTER", "1":"EIGHT", "2":"DOT EIGHT", "3":"QUARTER", "4":"HALF"}
+},
+"dly.2 TAP" : 
+{ "TIME":
+{
+  "TYPE":"float", 
+  "UNIT":"sec",
+  "MIN":0, 
+  "MAX":5.000
+  },
+"REPEATS":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DLY LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"RATIO":
+{
+  "TYPE":"integer", 
+  "UNIT":"%",
+  "MIN":0, 
+  "MAX":99
+  },
+"TAP DIV":
+{"TYPE":"list", "SIZE":5, "0":"3 QUARTER", "1":"EIGHT", "2":"DOT EIGHT", "3":"QUARTER", "4":"HALF"}
+},
+"eq.EQ" : 
+{ "LOW LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"dB",
+  "MIN":-12, 
+  "MAX":12
+  },
+"LOW FREQ":
+{
+  "TYPE":"integer", 
+  "UNIT":"Hz",
+  "MIN":60, 
+  "MAX":500
+  },
+"LOW BW":
+{"TYPE":"list", "SIZE":3, "0":"WIDE","1":"MEDIUM", "2":"NARROW"},
+"MID LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"dB",
+  "MIN":-12, 
+  "MAX":12
+  },
+"MID FREQ":
+{
+  "TYPE":"integer", 
+  "UNIT":"Hz",
+  "MIN":300, 
+  "MAX":4000
+  },
+"MID BW":
+{"TYPE":"list", "SIZE":3, "0":"WIDE","1":"MEDIUM", "2":"NARROW"},
+"HIGHLEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"dB",
+  "MIN":-12, 
+  "MAX":12
+  },
+"HIGHFREQ":
+{
+  "TYPE":"integer", 
+  "UNIT":"Hz",
+  "MIN":2000, 
+  "MAX":8000
+  },
+"HIGH BW":
+{"TYPE":"list", "SIZE":3, "0":"WIDE","1":"MEDIUM", "2":"NARROW"}
+},
+"mod.CECHORUS" : 
+{ "SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DEPTH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.TCCHORUS" : 
+{ "INTENSTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"WIDTH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.CHORUS" : 
+{ "LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DEPTH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"WAVEFORM":
+{"TYPE":"list", "SIZE":3, "0":"TRIANGLE","1":"SINE", "2":"SQUARE"}
+},
+"mod.GLISCHRS" : 
+{ "LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DEPTH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.MULTCHRS" : 
+{ "LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DEPTH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"WAVEFORM":
+{"TYPE":"list", "SIZE":3, "0":"TRIANGLE","1":"SINE", "2":"SQUARE"}
+},
+"mod.VOO DOO" : 
+{ "SPEED ":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"INTENSTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.CLONE" : 
+{ "RATE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DEPTH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.FLANGER" : 
+{ "LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DEPTH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"REGEN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"WAVEFORM":
+{"TYPE":"list", "SIZE":3, "0":"TRIANGLE","1":"SINE", "2":"SQUARE"}
+},
+"mod.TRIGFLNG" : 
+{ "LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SENSTVTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LFO START":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.FLTRFLNG" : 
+{ "SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DEPTH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"REGEN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"FREQ":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.MX FLNGR" : 
+{ "SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"WIDTH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"REGEN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"MANUAL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.EH FLNGR" : 
+{ "RATE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"RANGE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"COLOR":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.AD FLNGR" : 
+{ "SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"ENHANCE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"RANGE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"MANUAL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"HARMONIC":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.PHASER" : 
+{ "LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DEPTH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"REGEN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"WAVEFORM":
+{"TYPE":"list", "SIZE":3, "0":"TRIANGLE","1":"SINE", "2":"SQUARE"}
+},
+"mod.TRIGPHAS" : 
+{ "LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SENSTVTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LFO START":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.MX PHASR" : 
+{ "SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"INTENSTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":1, 
+  "MAX":4
+  }
+},
+"mod.EH PHASR" : 
+{ "RATE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"COLOR":
+{"TYPE":"list", "SIZE":2, "0":"BYPASS","1":"ON"}
+},
+"mod.VIBRATO" : 
+{ "SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DEPTH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.ROTARY" : 
+{ "SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"INTENSTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DOPPLER":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"X OVER":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.VIBROPAN" : 
+{ "SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"INTENSTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"VIBPAN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"WAVEFORM":
+{"TYPE":"list", "SIZE":3, "0":"TRIANGLE","1":"SINE", "2":"SQUARE"}
+},
+"mod.UNOVIBE" : 
+{ "VOLUME":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"INTENSTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"CHO VIB":
+{"TYPE":"list", "SIZE":2, "0":"CHORUS","1":"VIBRATO"}
+},
+"mod.TREMOLO" : 
+{ "SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DEPTH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"WAVEFORM":
+{"TYPE":"list", "SIZE":3, "0":"TRIANGLE","1":"SINE", "2":"SQUARE"}
+},
+"mod.SCTRTREM" : 
+{ "SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DEPTH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.OPTOTREM" : 
+{ "SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"INTENSTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.BIASTREM" : 
+{ "SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DEPTH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.PANNER" : 
+{ "SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DEPTH":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"WAVEFORM":
+{"TYPE":"list", "SIZE":3, "0":"TRIANGLE","1":"SINE", "2":"SQUARE"}
+},
+"mod.ENVFILTR" : 
+{ "SENSTVTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"RANGE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.FX25 ENV" : 
+{ "SENSTVTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"RANGE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BLEND":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.AUTO YA" : 
+{ "SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"INTENSTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"RANGE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":49
+  }
+},
+"mod.YA YA" : 
+{ "PEDAL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"INTENSTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"RANGE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":49
+  }
+},
+"mod.SYNTHTLK" : 
+{ "ATTACK":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"RELEASE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"VOX":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SENSTVTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"BALANCE":
+{
+  "TYPE":"integer", 
+  "UNIT":"L/R",
+  "MIN":-99, 
+  "MAX":99
+  }
+},
+"mod.STEPFLTR" : 
+{ "SPEED":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"INTENSTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.WHAMMY" : 
+{ "AMOUNT":
+{"TYPE":"list", "SIZE":16, "0":"1 OCT UP", "1":"2 OCT UP", "2":"2ND DOWN", "3":"REV 2ND", "4":"4TH DOWN", "5":"1 OCT DN", "6":"2 OCT DN", "7":"DIVEBOMB", "8":"MN3>MAJ3", "9":"2ND>MAJ3", "10":"3RD->4TH", "11":"4TH->5TH", "12":"5THOCTUP", "13":"H OCT UP", "14":"H OCT DN", "15":"OCTUP/DN"},
+"MIX":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"POSITION":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"mod.PITCH" : 
+{ "MIX":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SHIFT":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":-24, 
+  "MAX":24
+  }
+},
+"mod.DETUNE" : 
+{ "LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SHIFT":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":-24, 
+  "MAX":24
+  }
+},
+"mod.HARMONY" : 
+{ "LEVEL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"SHIFT":
+{"TYPE":"list", "SIZE":14, "0":"OCT DOWN", "1":"7TH DOWN", "2":"6TH DOWN", "3":"5TH DOWN", "4":"4TH DOWN", "5":"3RD DOWN", "6":"2ND DOWN", "7":"2ND UP", "8":"3RD UP", "9":"4TH UP", "10":"5TH UP", "11":"6TH UP", "12":"7TH UP", "13":"OCT UP"},
+"KEY":
+{"TYPE":"list", "SIZE":12, "0":"KEY E","1":"KEY F","2":"KEY G♭","3":"KEY G","4":"KEY A♭","5":"KEY A","6":"KEY B♭","7":"KEY B","8":"KEY C","9":"KEY D♭","10":"KEY D","11":"KEY E♭"},
+"SCALE":
+{"TYPE":"list", "SIZE":6, "0":"MAJOR","1":"MINOR","2":"DORIAN","3":"MIXOLYDIAN","4":"LYDIAN","5":"HARMMINR"}
+},
+"mod.OCTAVER" : 
+{ "OCTAVE 1":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"OCTAVE 2":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"DRY LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"gate.GATE" : 
+{ "THRESHLD":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"ATTEN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"ATTACK":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"RELEASE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"gate.SWELL" : 
+{ "SENSTVTY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"ATTEN":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"ATTACK":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"RELEASE":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"rvb.TWNSPRNG" : 
+{ "REVERB":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"rvb.LEXAMBNC" : 
+{ "RVB LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"PREDELAY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":15
+  },
+"DECAY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LIVENESS":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"rvb.LEXSTUDO" : 
+{ "RVB LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"PREDELAY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":15
+  },
+"DECAY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LIVENESS":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"rvb.LEX ROOM" : 
+{ "RVB LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"PREDELAY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":15
+  },
+"DECAY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LIVENESS":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"rvb.LEX HALL" : 
+{ "RVB LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"PREDELAY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":15
+  },
+"DECAY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LIVENESS":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"rvb.EMTPLATE" : 
+{ "RVB LEVL":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"PREDELAY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":15
+  },
+"DECAY":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  },
+"LIVENESS":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+},
+"vol.VOLUME" : 
+{ "VOLUME":
+{
+  "TYPE":"integer", 
+  "UNIT":"",
+  "MIN":0, 
+  "MAX":99
+  }
+}
+}
