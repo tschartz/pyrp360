@@ -25,7 +25,7 @@ class Device:
         self.command_id = 0
         self.active_preset = None
         self.stop_reading = False
-        self.sleeptime = 0.3
+        self.sleeptime = 0.2
 
         self.logger = logging.getLogger()
         self.logger.setLevel(logging.NOTSET)
@@ -194,8 +194,18 @@ class Device:
     def set_preset_name(self, name):
         self._query(cmd_set_preset_name[0] + str(self.command_id) + cmd_set_preset_name[1] + name + cmd_set_preset_name[2])
 
-    def save_preset(self, name):
-        pass
+    def send_preset(self, preset):
+        '''
+        Imports loaded preset to the device
+        :param preset:
+        :return:
+        '''
+        cmd = cmd_send_preset[0] + str(self.command_id) + cmd_send_preset[1] + preset.dumps() + cmd_send_preset[2]
+        cmd = self._format_command(cmd)
+        self._query(cmd)
+        self.response = self._read()
+        #self.set_preset_dirty()
+        self.active_preset = preset
 
     def _read_active_preset_part1(self):
         sleep(self.sleeptime)
@@ -244,6 +254,32 @@ class Device:
         idx = text.find(':')
         t = text[idx + 1:len(text) - 1]
         return t
+
+    def _format_command(self, text):
+        '''
+        Formats command : removing spaces then splitting in chunks of 249 chars.
+        Only used for sending a preset to device with 'ssc'.
+        :param text: command
+        :return:
+        '''
+        quote = False
+        temp, cmd = '', ''
+        for i in range(0, len(text)):
+            if text[i] == '"' and quote is False:
+                quote=True
+                temp = temp + text[i]
+            elif text[i] == '"' and quote is True:
+                quote = False
+                temp = temp + text[i]
+            elif text[i] != ' ' and quote is True:
+                temp = temp + text[i]
+            elif quote is False and text[i] != ' ':
+                temp = temp + text[i]
+            elif quote is True and text[i] == ' ':
+                temp = temp + text[i]
+        for i in range(0, len(temp), 249):  # command needs to be split in chunks of 249 chars
+            cmd = cmd + temp[i:i + 249] + '\n'
+        return cmd
 
     def _json_validate(self, text):
         pattern = re.compile('\{.*\:\{.*\:.*\}\}')

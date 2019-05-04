@@ -185,14 +185,11 @@ class RP360:
         data = self.device.get_active_preset()
         self.preset.load_from_device(data)
         self.build_fxc()
-        self.device.set_preset_dirty()
+        #self.device.set_preset_dirty()
         self.rp_label_active_preset.set_text('Preset : [' + self.preset.name + '] *')
 
     def on_button_import_preset(self, args):
-        dialog = Gtk.FileChooserDialog("Please choose a file", self.rp_mainwindow ,
-                                       Gtk.FileChooserAction.OPEN,
-                                       (Gtk.STOCK_CANCEL, Gtk.ResponseType.CANCEL,
-                                        Gtk.STOCK_OPEN, Gtk.ResponseType.OK))
+        dialog = Gtk.FileChooserDialog("Please choose a file", self.rp_mainwindow , Gtk.FileChooserAction.OPEN, (Gtk.STOCK_CANCEL, Gtk.ResponseType.CANCEL, Gtk.STOCK_OPEN, Gtk.ResponseType.OK))
         gtkfilter = Gtk.FileFilter()
         gtkfilter.add_pattern('*.rp360p')
         gtkfilter.set_name('*.rp360p')
@@ -203,6 +200,7 @@ class RP360:
             self.preset = None
             self.preset = Preset()
             self.preset.load_from_file(dialog.get_filename())
+            self.device.send_preset(self.preset)
             self.build_fxc()
             self.rp_model, iter = self.rp_preset_selection.get_selected()
             self.rp_model.set_value(iter, 2, self.preset.name)
@@ -224,6 +222,7 @@ class RP360:
             sel = self.get_selected_preset_index()
             bank_type = 'factory' if sel[0] == 'F' else 'user'
             self.device.store_preset(sel[1], bank_type)
+            self.device.set_preset_name(self.preset.name)
 
     def on_parameter_changed(self, *args):
         self.device.set_fx_value(args[1], args[2])

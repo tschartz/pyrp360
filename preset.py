@@ -65,12 +65,15 @@ class Preset:
     def set_name(self, name):
         self.name = name
 
+    def dumps(self):
+        return json.dumps(self.data)
+
     def load_fx_chain(self):
         """
         loads json preset from memory (self.data), assigns each fx and add them to fx chain
         """
         self.name = self.data.get('name')
-        print('@@', self.data)
+        #print('@@', self.data)
         for i in range(10):
             fx = self.data.get('fxc').get(str(i))
             if not fx:

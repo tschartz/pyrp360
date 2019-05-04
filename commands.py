@@ -33,4 +33,7 @@ cmd_store_factory_preset = ['["mc",', ',"preset","banks/factory/', '"]\n']
 
 cmd_set_fx_model = ['["ssc",', ',"preset/fxc/', '",{"fx":{"name":"', '"}}]\n']  # change fx model e.g. : ["ssc",132,"preset/fxc/4",{"fx":{"name":"dist.FUZZLATR"}}]
 
+cmd_send_preset = ['["ssc", ', ', "", {"preset":','}]'] # send preset to device ["ssc", 110, "", {json_preset...}]  followed by cmd_set_preset_dirty
+
 cmd_set_preset_name = ['["sp",', ',"preset/name","', '"]\n']  # ["sp",108,"preset/name","blabla"]
+
