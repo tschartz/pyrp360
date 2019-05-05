@@ -141,3 +141,12 @@ class Preset:
             level2.update({'name': fx})
             level1.update({'fx': level2})
             self.fxc.update({index: level1})
+
+    def delete_fx(self, index):
+        '''
+        removes from the fx chain fx whose position is index
+        :param index: position in the fx chain
+        :return:
+        '''
+        removed = self.fxc["preset"]["fx"].pop(str(index))
+        self.fxc = removed
