@@ -1,3 +1,4 @@
+### system commands
 
 cmd_state = 'U\x16\x00C\x00\x00\x00\x00["rp",0,"STATE"]\n'
 
@@ -6,6 +7,8 @@ cmd_version = '["rp",1,"VERSION"]\n' #'U\x18\x00C\x00\x01\x00\x00["rp",1,"VERSIO
 cmd_sbs = '["sbs",2,"",1]\n'
 
 cmd_sync = '["rp",3,"system/SYNC"]\n'
+
+### preset commands
 
 cmd_get_factory_preset_name = ['["rp",', ',"banks/factory/', '/name"]\n']
 
@@ -31,9 +34,15 @@ cmd_store_user_preset = ['["mc",', ',"preset","banks/user/', '"]\n']  # ["mc",x,
 
 cmd_store_factory_preset = ['["mc",', ',"preset","banks/factory/', '"]\n']
 
-cmd_set_fx_model = ['["ssc",', ',"preset/fxc/', '",{"fx":{"name":"', '"}}]\n']  # change fx model e.g. : ["ssc",132,"preset/fxc/4",{"fx":{"name":"dist.FUZZLATR"}}]
-
 cmd_send_preset = ['["ssc", ', ', "", {"preset":','}]'] # send preset to device ["ssc", 110, "", {json_preset...}]  followed by cmd_set_preset_dirty
 
 cmd_set_preset_name = ['["sp",', ',"preset/name","', '"]\n']  # ["sp",108,"preset/name","blabla"]
+
+### fx commands
+
+cmd_set_fx_model = ['["ssc",', ',"preset/fxc/', '",{"fx":{"name":"', '"}}]\n']  # change fx model e.g. : ["ssc",132,"preset/fxc/4",{"fx":{"name":"dist.FUZZLATR"}}]
+
+cmd_delete_fx = ['["dc",', ', "preset/fxc/', '"]\n'] # ["dc", 102, "preset/fxc/2"] delete fx #2 from fx chain
+
+cmd_reorder_fx = ['["shc",', ',"preset/fxc",', ']\n'] #  ["shc", 103, "preset/fxc", [3, 0, 1, 2, 4, 5, 6]] : reposition fx #3 to pos # 0
 

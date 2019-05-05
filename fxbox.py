@@ -10,7 +10,7 @@ class FxBox(GObject.Object):
     fx_path = 'preset/fxc/'
     __gsignals__ = {
         'parameter-changed': (GObject.SIGNAL_RUN_LAST, None, (str, str,)),
-        'fx-changed': (GObject.SIGNAL_RUN_LAST, None, (int, str,))
+        'fx-changed': (GObject.SIGNAL_RUN_LAST, None, (int, str,)),
     }
 
     def __init__(self, fx_params, index):
@@ -55,6 +55,7 @@ class FxBox(GObject.Object):
                 self.model.set_active_id(i)
         self.model.connect('changed', self.on_fx_changed)
         self.grid.attach_next_to(self.model, self.switch, Gtk.PositionType.RIGHT, 2, 1)
+
         # build parameters widgets
         self.build_params()
         self.frame.show_all()
@@ -138,4 +139,3 @@ class FxBox(GObject.Object):
 
     def on_fx_changed(self, *data):
         self.emit('fx-changed', self.index, str(self.model.get_active_id()))
-

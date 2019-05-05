@@ -223,6 +223,7 @@ class RP360:
             bank_type = 'factory' if sel[0] == 'F' else 'user'
             self.device.store_preset(sel[1], bank_type)
             self.device.set_preset_name(self.preset.name)
+            self.rp_label_active_preset.set_text('Preset : [' + self.preset.name + '] ')
 
     def on_parameter_changed(self, *args):
         self.device.set_fx_value(args[1], args[2])
