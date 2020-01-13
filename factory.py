@@ -5,7 +5,7 @@ import json
 banks = {}
 preset = {}
 device = Device()
-device.sleeptime = 0.3
+device.sleeptime = 0.2
 device.open()
 f = open('fbanks.json', 'a')
 device.state()

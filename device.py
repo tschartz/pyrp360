@@ -6,8 +6,6 @@ from commands import *
 from files import Configuration
 import logging
 from time import sleep
-import string
-import re
 
 
 class Device:
@@ -17,7 +15,7 @@ class Device:
         self.ser = None
         self.port = None
         self.baudrate = 115200
-        self.timeout = 0.5
+        self.timeout = 0.0
         self.read_buffer = 4096
         self.response = ''
         self.loaded = False
@@ -25,7 +23,6 @@ class Device:
         self.command_id = 0
         self.active_preset = None
         self.stop_reading = False
-        self.sleeptime = 0.2
 
         self.logger = logging.getLogger()
         self.logger.setLevel(logging.NOTSET)
@@ -45,8 +42,8 @@ class Device:
         self.port = Configuration().get('device')
         try:
             self.ser = serial.Serial(port=self.port, baudrate=self.baudrate, timeout=self.timeout)
-        except serial.SerialException:
-            logging.critical('Port %s could not be opened.', self.port)
+        except serial.SerialException as e:
+            logging.critical(e.strerror)
             return False
         else:
             self.connected = True
@@ -62,44 +59,45 @@ class Device:
             self.ser.close()
             self.connected = False
 
-    def _query(self, command):
+    def _write(self, command):
         self.ser.write(command.encode())
         logging.info('Sending: %s', command)
         self.command_id += 1
-        sleep(self.sleeptime)
+        sleep(0.5)
 
-    def _read(self):
-        self.read_buffer = self.ser.in_waiting - 1
-        resp = self.ser.read(self.read_buffer)
-        self.ser.flushInput()
-        resp = resp[self._find_header_end(resp):]
-        logging.info('Received: %s', resp)
-        decoded = resp.decode('utf-8', 'ignore')
-        decoded = decoded[decoded.rfind('['):]
-        utf8 = decoded
-        if 'nack' in utf8:
-            logging.error("NACK - Command failed : '%s'", resp)
+    def _read(self, read_type='default'):
+        if read_type == 'default':
+            self.stop_reading = False
+        if not self.stop_reading:
+            self.response = self.ser.read(self.ser.in_waiting)
+            sleep(.2)
             self.ser.flushInput()
-            return None
-        self.ser.flushInput()
-        return utf8
+            if b'nack' in self.response:
+                logging.error("NACK - Command failed : '%s'", self.response)
+                return b''
+            else:
+                logging.info('Received: %s', self.response)
+                if read_type == 'preset' and (']'.encode() in self.response):
+                    self.stop_reading = True
+                return self.response
+        return b''
 
     def state(self):
-        self._query(cmd_state)
+        self._write(cmd_state)
         self.response = self._read()
         if self.response is None:
-            logging.error('Device is not ready. Please reset your device and try again...')
+            logging.error('Device is not ready. Please reconnect your device and try again...')
 
     def version(self):
-        self._query(cmd_version)
+        self._write(cmd_version)
         self.response = self._read()
 
     def sbs(self):
-        self._query(cmd_sbs)
+        self._write(cmd_sbs)
         self.response = self._read()
 
     def sync(self):
-        self._query(cmd_sync)
+        self._write(cmd_sync)
         self.response = self._read()
 
     def get_preset_name_at_index(self, index, bank_type='factory'):
@@ -110,13 +108,14 @@ class Device:
         :return: (str) preset name
         """
         if bank_type == 'factory':
-            self._query(cmd_get_factory_preset_name[0] + str(self.command_id) + cmd_get_factory_preset_name[1]+str(index)
+            self._write(cmd_get_factory_preset_name[0] + str(self.command_id) + cmd_get_factory_preset_name[1]+str(index)
                         + cmd_get_factory_preset_name[2])
         elif bank_type == 'user':
-            self._query(cmd_get_user_preset_name[0] + str(self.command_id) + cmd_get_user_preset_name[1] + str(index) +
+            self._write(cmd_get_user_preset_name[0] + str(self.command_id) + cmd_get_user_preset_name[1] + str(index) +
                         cmd_get_user_preset_name[2])
         self.response = self._read()
-        rep = self.response[self.response.rfind('['):self.response.rfind(']')]
+        decoded = self.response.decode(encoding='ISO-8859-1', errors='ignore')
+        rep = decoded[decoded.find('['):decoded.rfind(']')]
         s = rep.split(',')
         preset_name = s[3].strip('"')
         return preset_name
@@ -133,40 +132,39 @@ class Device:
         return self.banks
 
     def get_active_preset(self):
-        self._query(cmd_get_preset0[0] + str(self.command_id) + cmd_get_preset0[1])
-        part1 = self._read_active_preset_part1()
-        self._query(cmd_get_preset1)
-        part2 = self._read_active_preset_part2()
-        part3 = ''
-        if not self.stop_reading:
-            self._query(cmd_get_preset2)
-            part3 = self._read_active_preset_part3()
-        preset = part1 + part2 + part3
-        preset = self._remove_preset_header(preset)
-        self._json_validate(preset)
-        logging.info('Current preset: %s', preset)
-        self.active_preset = preset
+        self._write(cmd_get_preset0[0] + str(self.command_id) + cmd_get_preset0[1])
+        str1 = self._read(read_type='preset')
+        self._write('\x55\x06\x00\x02\x00\x72\x00\x42\x44')
+        str2 = self._read(read_type='preset')
+        self._write('\x55\x06\x00\x02\x00\x73\x00\x42\x43')
+        str3 = self._read(read_type='preset')
+        start_byte = 10
+        if str3 != b'' and str3[1] != 0:
+            start_byte = 8
+        self.active_preset = str1[10:len(str1) - 1] + str2[10:len(str2) - 1] + str3[start_byte:len(str3) - 1]
+        self.active_preset = self.active_preset[self.active_preset.find('{'.encode()):self.active_preset.rfind(']'.encode()):]
+        logging.info('Current preset: %s', self.active_preset)
         return self.active_preset
 
     def select_preset_at(self, index, bank_type):
         if bank_type == 'factory':
-            self._query(cmd_select_factory_preset_at[0] + str(self.command_id) + cmd_select_factory_preset_at[1] + str(index) + cmd_select_factory_preset_at[2])
+            self._write(cmd_select_factory_preset_at[0] + str(self.command_id) + cmd_select_factory_preset_at[1] + str(index) + cmd_select_factory_preset_at[2])
         elif bank_type == 'user':
-            self._query(cmd_select_user_preset_at[0] + str(self.command_id) + cmd_select_user_preset_at[1] + str(index) + cmd_select_user_preset_at[2])
+            self._write(cmd_select_user_preset_at[0] + str(self.command_id) + cmd_select_user_preset_at[1] + str(index) + cmd_select_user_preset_at[2])
         else:
             return
         sleep(self.timeout)
         self.response = self._read()
 
     def set_preset_dirty(self):
-        self._query(cmd_set_preset_dirty[0] + str(self.command_id) + cmd_set_preset_dirty[1])
+        self._write(cmd_set_preset_dirty[0] + str(self.command_id) + cmd_set_preset_dirty[1])
         self.response = self._read()
 
     def store_preset(self, index, bank_type):
         if bank_type == 'factory':
-            self._query(cmd_store_factory_preset[0] + str(self.command_id) + cmd_store_factory_preset[1] + str(index) + cmd_store_factory_preset[2])
+            self._write(cmd_store_factory_preset[0] + str(self.command_id) + cmd_store_factory_preset[1] + str(index) + cmd_store_factory_preset[2])
         elif bank_type == 'user':
-            self._query(cmd_store_user_preset[0] + str(self.command_id) + cmd_store_user_preset[1] + str(index) +
+            self._write(cmd_store_user_preset[0] + str(self.command_id) + cmd_store_user_preset[1] + str(index) +
                         cmd_store_user_preset[2])
         else:
             return
@@ -178,7 +176,7 @@ class Device:
         :param fx_path: (string) path to fx in a filepath format, e.g. fxc/2/fx/ATTACK or ENABLE
         :param value: (int) value to set for the fx
         """
-        self._query(cmd_set_preset_value[0] + str(self.command_id) + cmd_set_preset_value[1] + fx_path +
+        self._write(cmd_set_preset_value[0] + str(self.command_id) + cmd_set_preset_value[1] + fx_path +
                     cmd_set_preset_value[2] + str(value) + cmd_set_preset_value[3])
         self._read()
 
@@ -188,11 +186,11 @@ class Device:
         :param fx_name: name of the new fx (str)
         :param chain_position: position in the chain (int)
         """
-        self._query(cmd_set_fx_model[0] + str(self.command_id) + cmd_set_fx_model[1] + str(chain_position) + cmd_set_fx_model[2] + fx_name + cmd_set_fx_model[3])
+        self._write(cmd_set_fx_model[0] + str(self.command_id) + cmd_set_fx_model[1] + str(chain_position) + cmd_set_fx_model[2] + fx_name + cmd_set_fx_model[3])
         self._read()
 
     def set_preset_name(self, name):
-        self._query(cmd_set_preset_name[0] + str(self.command_id) + cmd_set_preset_name[1] + name + cmd_set_preset_name[2])
+        self._write(cmd_set_preset_name[0] + str(self.command_id) + cmd_set_preset_name[1] + name + cmd_set_preset_name[2])
 
     def send_preset(self, preset):
         '''
@@ -202,58 +200,11 @@ class Device:
         '''
         cmd = cmd_send_preset[0] + str(self.command_id) + cmd_send_preset[1] + preset.dumps() + cmd_send_preset[2]
         cmd = self._format_command(cmd)
-        self._query(cmd)
+        self._write(cmd)
         self.response = self._read()
         #self.set_preset_dirty()
         self.active_preset = preset
 
-    def _read_active_preset_part1(self):
-        sleep(self.sleeptime)
-        s = self.ser.read(self.ser.in_waiting - 1)
-        self.ser.flushInput()
-        d = s.decode('utf-8', 'ignore')
-        a1 = d[d.rfind('['):]
-        a1 = a1[a1.find('{'):]
-        a1 = ''.join(x if x in string.printable else '' for x in a1)
-        self.response = s
-        logging.info('Received: %s', s)
-        return a1
-
-    def _read_active_preset_part2(self):
-        sleep(self.sleeptime)
-        s = self.ser.read(self.ser.in_waiting - 1)
-        self.ser.flushInput()
-        s = s[self._find_header_end(s):]
-        a2 = s.decode('utf-8', 'ignore')
-        a2 = ''.join(x if x in string.printable else '' for x in a2)
-        if a2[len(a2) - 1] == ']':
-            a2 = a2[:len(a2) - 1]
-            self.stop_reading = True
-        logging.info('Received: %s', s)
-        return a2
-
-    def _read_active_preset_part3(self):
-        sleep(self.sleeptime)
-        s = self.ser.read(self.ser.in_waiting - 1)
-        self.ser.flushInput()
-        s = s[self._find_header_end(s):]
-        a3 = s.decode('utf-8', 'ignore')
-        a3 = ''.join(x if x in string.printable else '' for x in a3)
-        if a3[len(a3) - 1] == ']':
-            a3 = a3[:len(a3) - 1]
-        logging.info('Received: %s', s)
-        return a3
-
-    def _find_header_end(self, buffer):
-        for i in range(0, len(buffer) - 1):
-            if buffer[i] == 0 and buffer[i + 1] == 0:
-                return i + 2
-        return 0
-
-    def _remove_preset_header(self, text):
-        idx = text.find(':')
-        t = text[idx + 1:len(text) - 1]
-        return t
 
     def _format_command(self, text):
         '''
@@ -280,11 +231,3 @@ class Device:
         for i in range(0, len(temp), 249):  # command needs to be split in chunks of 249 chars
             cmd = cmd + temp[i:i + 249] + '\n'
         return cmd
-
-    def _json_validate(self, text):
-        pattern = re.compile('\{.*\:\{.*\:.*\}\}')
-        if pattern.match(text) is None:
-            logging.error('*** Error in preset data format.')
-            return False
-        else:
-            return True

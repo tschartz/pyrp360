@@ -47,7 +47,6 @@ class Preset:
     def get_data(self, data):
         self.data = None
         self.data = json.loads(data)
-        #self.save_to_file(files.get_temp_file_path())
 
     def save_to_device(self, name):
         pass
@@ -72,10 +71,10 @@ class Preset:
         """
         loads json preset from memory (self.data), assigns each fx and add them to fx chain
         """
-        self.name = self.data.get('name')
-        #print('@@', self.data)
+        self.name = self.data.get('preset').get('name')
+        print('@@', self.data)
         for i in range(10):
-            fx = self.data.get('fxc').get(str(i))
+            fx = self.data.get('preset').get('fxc').get(str(i))
             if not fx:
                 break
             if fx.get('fx') is None: # volume and equalizer have no fx key
