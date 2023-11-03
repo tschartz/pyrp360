@@ -1,4 +1,3 @@
-
 import gi
 import logging
 from device import Device
@@ -6,16 +5,17 @@ from preset import Preset
 from fxbox import FxBox
 from files import Configuration
 import threading
+
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, GLib
 
 
-#TODO autoconnect
-#TODO save imported preset
-#TODO load factory prests from local drive
-#TODO reposition fx in the chain
-#TODO implementing stompbox mode
-#TODO implementing LFO assignment
+# TODO autoconnect
+# TODO save imported preset
+# TODO load factory prests from local drive
+# TODO reposition fx in the chain
+# TODO implementing stompbox mode
+# TODO implementing LFO assignment
 
 
 class MessageHandler(logging.Handler):
@@ -58,6 +58,13 @@ class RP360:
         self.preset = None
         self.config = Configuration()
         self.thread = threading.Thread(target=self.load_banks)
+        if not self.device.detect_device():
+            dialog = Gtk.MessageDialog(parent=None, message_type=Gtk.MessageType.ERROR,
+                                   text="No device detected. Please connect your device first.",
+                                   buttons=Gtk.ButtonsType.CLOSE, title="PyRP360 : no device")
+            dialog.run()
+            dialog.destroy()
+            quit(-1)
 
         self.builder = Gtk.Builder()
         self.builder.add_from_file("pyrp360.glade")
@@ -109,7 +116,7 @@ class RP360:
         }
         self.builder.connect_signals(handlers)
 
-        #config initial state
+        # config initial state
         self.rp_paned.set_position(180)
         self.button_load.set_sensitive(False)
         self.button_save.set_sensitive(False)
@@ -138,7 +145,7 @@ class RP360:
         self.config.write("device", self.pref_edit1.get_text())
         self.config.write("autoconnect", self.pref_switch1.get_state())
         self.config.write('debug', self.pref_debug.get_state())
-        self.button_connect.set_sensitive( not self.device.connected)
+        self.button_connect.set_sensitive(not self.device.connected)
         self.pref_win.hide()
 
     def on_preset_button_export_clicked(self, *data):
@@ -150,7 +157,7 @@ class RP360:
         gtkfilter.add_pattern('*.rp360p')
         gtkfilter.set_name('*.rp360p')
         dialog.add_filter(gtkfilter)
-        dialog.set_filename(self.preset.name+'.rp360p')
+        dialog.set_filename(self.preset.name + '.rp360p')
         response = dialog.run()
         dialog.set_filename(self.preset.name + '.rp360p')
         if response == Gtk.ResponseType.OK:
@@ -185,11 +192,12 @@ class RP360:
         data = self.device.get_active_preset()
         self.preset.load_from_device(data)
         self.build_fxc()
-        #self.device.set_preset_dirty()
+        # self.device.set_preset_dirty()
         self.rp_label_active_preset.set_text('Preset : [' + self.preset.name + '] *')
 
     def on_button_import_preset(self, args):
-        dialog = Gtk.FileChooserDialog("Please choose a file", self.rp_mainwindow , Gtk.FileChooserAction.OPEN, (Gtk.STOCK_CANCEL, Gtk.ResponseType.CANCEL, Gtk.STOCK_OPEN, Gtk.ResponseType.OK))
+        dialog = Gtk.FileChooserDialog("Please choose a file", self.rp_mainwindow, Gtk.FileChooserAction.OPEN,
+                                       (Gtk.STOCK_CANCEL, Gtk.ResponseType.CANCEL, Gtk.STOCK_OPEN, Gtk.ResponseType.OK))
         gtkfilter = Gtk.FileFilter()
         gtkfilter.add_pattern('*.rp360p')
         gtkfilter.set_name('*.rp360p')
@@ -246,7 +254,7 @@ class RP360:
 
         for i in range(10):
             fx = self.preset.fxc.get(i)
-            #TODO: if fx is none, create empty fxbox with add button
+            # TODO: if fx is none, create empty fxbox with add button
             if fx is not None:
                 fxbox = FxBox(fx, i)
                 fxbox.connect('parameter-changed', self.on_parameter_changed)
@@ -255,7 +263,7 @@ class RP360:
         self.rp_label_active_preset.set_text('Preset : [' + self.preset.name + ']    ')
 
     def progress(self, i):
-        self.progress_bar.set_fraction(i/100.0)
+        self.progress_bar.set_fraction(i / 100.0)
         self.progress_bar.set_text('loading presets : ' + str(i) + '%')
         if i >= 100:
             self.progress_win.hide()
@@ -290,9 +298,9 @@ class RP360:
 
     def populate_banks_list(self, banks):
         for i in range(99):
-            self.rp_model.insert(i, ['F', i+1, banks.get('F').get(i+1)])
+            self.rp_model.insert(i, ['F', i + 1, banks.get('F').get(i + 1)])
         for i in range(99):
-            self.rp_model.insert(i, ['U', i+1, banks.get('U').get(i+1)])
+            self.rp_model.insert(i, ['U', i + 1, banks.get('U').get(i + 1)])
 
     def get_selected_preset_index(self):
         '''
@@ -301,11 +309,9 @@ class RP360:
         '''
         self.rp_model, self.rp_treeview = self.rp_preset_selection.get_selected()
         p = self.rp_model[self.rp_treeview]
-        return [p[0], p[1]-1]
+        return [p[0], p[1] - 1]
 
 
 if __name__ == '__main__':
     rp360 = RP360()
     Gtk.main()
-
-

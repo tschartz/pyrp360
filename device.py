@@ -35,7 +35,6 @@ class Device:
                 logging.info("Found connected device : {}: {} [{}]".format(port, desc, hwid))
                 Configuration().write('device', port)
                 return True
-        self.logger.critical("No device detected in ", ports)
         return False
 
     def open(self):

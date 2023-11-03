@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.22.1 
+<!-- Generated with glade 3.40.0 
 
 Copyright (C) 
 
@@ -41,40 +41,37 @@ schartz.thierry@gmail.com
   </object>
   <object class="GtkWindow" id="rp.mainwindow">
     <property name="visible">True</property>
-    <property name="can_focus">False</property>
-    <property name="can_default">True</property>
+    <property name="can-focus">False</property>
+    <property name="can-default">True</property>
     <property name="title" translatable="yes">PyRP360</property>
-    <property name="window_position">center</property>
-    <property name="default_width">800</property>
-    <property name="default_height">600</property>
+    <property name="window-position">center</property>
+    <property name="default-width">800</property>
+    <property name="default-height">600</property>
     <property name="icon">pyrp360.png</property>
     <signal name="destroy" handler="onMainDestroy" swapped="no"/>
-    <child type="titlebar">
-      <placeholder/>
-    </child>
     <child>
       <object class="GtkPaned" id="rp.paned">
-        <property name="width_request">300</property>
+        <property name="width-request">300</property>
         <property name="visible">True</property>
-        <property name="can_focus">True</property>
+        <property name="can-focus">True</property>
         <property name="hexpand">True</property>
-        <property name="wide_handle">True</property>
+        <property name="wide-handle">True</property>
         <child>
           <object class="GtkScrolledWindow">
             <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="shadow_type">in</property>
+            <property name="can-focus">True</property>
+            <property name="shadow-type">in</property>
             <child>
               <object class="GtkTreeView" id="rp.treeview">
                 <property name="visible">True</property>
-                <property name="can_focus">True</property>
+                <property name="can-focus">True</property>
                 <property name="model">rp.model</property>
-                <property name="headers_clickable">False</property>
-                <property name="expander_column">rp.listbanks</property>
-                <property name="search_column">2</property>
-                <property name="show_expanders">False</property>
-                <property name="enable_grid_lines">horizontal</property>
-                <property name="activate_on_single_click">True</property>
+                <property name="headers-clickable">False</property>
+                <property name="expander-column">rp.listbanks</property>
+                <property name="search-column">2</property>
+                <property name="show-expanders">False</property>
+                <property name="enable-grid-lines">horizontal</property>
+                <property name="activate-on-single-click">True</property>
                 <child internal-child="selection">
                   <object class="GtkTreeSelection" id="rp.preset.selection">
                     <signal name="changed" handler="onPresetChanged" swapped="no"/>
@@ -130,22 +127,22 @@ schartz.thierry@gmail.com
         <child>
           <object class="GtkBox" id="rp.box.main">
             <property name="visible">True</property>
-            <property name="can_focus">False</property>
-            <property name="margin_left">4</property>
-            <property name="margin_right">4</property>
-            <property name="margin_top">4</property>
-            <property name="margin_bottom">4</property>
+            <property name="can-focus">False</property>
+            <property name="margin-left">4</property>
+            <property name="margin-right">4</property>
+            <property name="margin-top">4</property>
+            <property name="margin-bottom">4</property>
             <property name="orientation">vertical</property>
             <property name="spacing">4</property>
             <child>
               <object class="GtkButtonBox">
                 <property name="visible">True</property>
-                <property name="can_focus">False</property>
-                <property name="layout_style">start</property>
+                <property name="can-focus">False</property>
+                <property name="layout-style">start</property>
                 <child>
                   <object class="GtkLabel" id="rp.activepreset.label">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
+                    <property name="can-focus">False</property>
                     <property name="label" translatable="yes">Preset :</property>
                     <attributes>
                       <attribute name="font-desc" value="Sans Bold 12"/>
@@ -161,10 +158,10 @@ schartz.thierry@gmail.com
                   <object class="GtkButton" id="rp.button.connect">
                     <property name="label">gtk-connect</property>
                     <property name="visible">True</property>
-                    <property name="can_focus">True</property>
-                    <property name="receives_default">True</property>
-                    <property name="use_stock">True</property>
-                    <property name="always_show_image">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                    <property name="use-stock">True</property>
+                    <property name="always-show-image">True</property>
                     <signal name="clicked" handler="onButtonConnect" swapped="no"/>
                   </object>
                   <packing>
@@ -177,10 +174,10 @@ schartz.thierry@gmail.com
                   <object class="GtkButton" id="rp.preset.button.save">
                     <property name="label">gtk-save</property>
                     <property name="visible">True</property>
-                    <property name="can_focus">True</property>
-                    <property name="receives_default">True</property>
-                    <property name="use_stock">True</property>
-                    <property name="always_show_image">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                    <property name="use-stock">True</property>
+                    <property name="always-show-image">True</property>
                     <signal name="clicked" handler="onButtonSavePreset" swapped="no"/>
                   </object>
                   <packing>
@@ -193,10 +190,10 @@ schartz.thierry@gmail.com
                   <object class="GtkButton" id="rp.button.preferences">
                     <property name="label">gtk-preferences</property>
                     <property name="visible">True</property>
-                    <property name="can_focus">True</property>
-                    <property name="receives_default">True</property>
-                    <property name="use_stock">True</property>
-                    <property name="always_show_image">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                    <property name="use-stock">True</property>
+                    <property name="always-show-image">True</property>
                     <signal name="clicked" handler="on_rp_button_preferences_clicked" swapped="no"/>
                   </object>
                   <packing>
@@ -209,15 +206,15 @@ schartz.thierry@gmail.com
                   <object class="GtkButton" id="rp.preset.button.import">
                     <property name="label">Import</property>
                     <property name="visible">True</property>
-                    <property name="can_focus">True</property>
-                    <property name="receives_default">True</property>
-                    <property name="always_show_image">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                    <property name="always-show-image">True</property>
                     <signal name="clicked" handler="onButtonLoadPreset" swapped="no"/>
                   </object>
                   <packing>
                     <property name="expand">True</property>
                     <property name="fill">True</property>
-                    <property name="pack_type">end</property>
+                    <property name="pack-type">end</property>
                     <property name="position">3</property>
                   </packing>
                 </child>
@@ -225,15 +222,15 @@ schartz.thierry@gmail.com
                   <object class="GtkButton" id="rp.preset.button.export">
                     <property name="label" translatable="yes">Export</property>
                     <property name="visible">True</property>
-                    <property name="can_focus">True</property>
-                    <property name="receives_default">True</property>
-                    <property name="always_show_image">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                    <property name="always-show-image">True</property>
                     <signal name="clicked" handler="on_preset_button_export_clicked" swapped="no"/>
                   </object>
                   <packing>
                     <property name="expand">True</property>
                     <property name="fill">True</property>
-                    <property name="pack_type">end</property>
+                    <property name="pack-type">end</property>
                     <property name="position">4</property>
                   </packing>
                 </child>
@@ -247,22 +244,22 @@ schartz.thierry@gmail.com
             <child>
               <object class="GtkScrolledWindow">
                 <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <property name="shadow_type">in</property>
+                <property name="can-focus">True</property>
+                <property name="shadow-type">in</property>
                 <child>
                   <object class="GtkViewport">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
+                    <property name="can-focus">False</property>
                     <child>
                       <object class="GtkFlowBox" id="rp.flowbox">
                         <property name="visible">True</property>
-                        <property name="can_focus">False</property>
+                        <property name="can-focus">False</property>
                         <property name="homogeneous">True</property>
-                        <property name="column_spacing">4</property>
-                        <property name="row_spacing">4</property>
-                        <property name="min_children_per_line">2</property>
-                        <property name="max_children_per_line">5</property>
-                        <property name="activate_on_single_click">False</property>
+                        <property name="column-spacing">4</property>
+                        <property name="row-spacing">4</property>
+                        <property name="min-children-per-line">2</property>
+                        <property name="max-children-per-line">5</property>
+                        <property name="activate-on-single-click">False</property>
                       </object>
                     </child>
                   </object>
@@ -284,34 +281,31 @@ schartz.thierry@gmail.com
     </child>
   </object>
   <object class="GtkAboutDialog" id="rp.win.about">
-    <property name="can_focus">False</property>
+    <property name="can-focus">False</property>
     <property name="modal">True</property>
-    <property name="window_position">center-on-parent</property>
-    <property name="destroy_with_parent">True</property>
-    <property name="type_hint">dialog</property>
-    <property name="skip_taskbar_hint">True</property>
-    <property name="skip_pager_hint">True</property>
-    <property name="transient_for">rp.mainwindow</property>
-    <property name="attached_to">rp.mainwindow</property>
-    <property name="program_name">PyRP360</property>
-    <property name="version">0.8</property>
+    <property name="window-position">center-on-parent</property>
+    <property name="destroy-with-parent">True</property>
+    <property name="type-hint">dialog</property>
+    <property name="skip-taskbar-hint">True</property>
+    <property name="skip-pager-hint">True</property>
+    <property name="transient-for">rp.mainwindow</property>
+    <property name="attached-to">rp.mainwindow</property>
+    <property name="program-name">PyRP360</property>
+    <property name="version">0.8.1</property>
     <property name="comments" translatable="yes">pyrp360 aims to provide DigiTech Nexus functionalities to Linux users</property>
     <property name="website">schartz.thierry@gmail.com</property>
-    <property name="authors">Thierry  Schartz</property>
+    <property name="authors">Thierry Schartz</property>
     <property name="logo">pyrp360.png</property>
-    <property name="license_type">lgpl-3-0</property>
-    <child type="titlebar">
-      <placeholder/>
-    </child>
+    <property name="license-type">lgpl-3-0</property>
     <child internal-child="vbox">
       <object class="GtkBox">
-        <property name="can_focus">False</property>
+        <property name="can-focus">False</property>
         <property name="orientation">vertical</property>
         <property name="spacing">2</property>
         <child internal-child="action_area">
           <object class="GtkButtonBox">
-            <property name="can_focus">False</property>
-            <property name="layout_style">end</property>
+            <property name="can-focus">False</property>
+            <property name="layout-style">end</property>
             <child>
               <placeholder/>
             </child>
@@ -329,27 +323,24 @@ schartz.thierry@gmail.com
     </child>
   </object>
   <object class="GtkWindow" id="rp.win.progress">
-    <property name="width_request">250</property>
-    <property name="height_request">50</property>
-    <property name="can_focus">False</property>
+    <property name="width-request">250</property>
+    <property name="height-request">50</property>
+    <property name="can-focus">False</property>
     <property name="title" translatable="yes">Loading...</property>
     <property name="resizable">False</property>
     <property name="modal">True</property>
-    <property name="window_position">center-on-parent</property>
-    <property name="destroy_with_parent">True</property>
-    <property name="skip_taskbar_hint">True</property>
-    <property name="skip_pager_hint">True</property>
+    <property name="window-position">center-on-parent</property>
+    <property name="destroy-with-parent">True</property>
+    <property name="skip-taskbar-hint">True</property>
+    <property name="skip-pager-hint">True</property>
     <property name="decorated">False</property>
     <property name="deletable">False</property>
-    <property name="transient_for">rp.mainwindow</property>
-    <property name="attached_to">rp.mainwindow</property>
-    <child type="titlebar">
-      <placeholder/>
-    </child>
+    <property name="transient-for">rp.mainwindow</property>
+    <property name="attached-to">rp.mainwindow</property>
     <child>
       <object class="GtkBox">
         <property name="visible">True</property>
-        <property name="can_focus">False</property>
+        <property name="can-focus">False</property>
         <property name="orientation">vertical</property>
         <child>
           <placeholder/>
@@ -357,11 +348,11 @@ schartz.thierry@gmail.com
         <child>
           <object class="GtkProgressBar" id="rp.win.progress.bar">
             <property name="visible">True</property>
-            <property name="can_focus">False</property>
-            <property name="margin_left">10</property>
-            <property name="margin_right">10</property>
-            <property name="pulse_step">0</property>
-            <property name="show_text">True</property>
+            <property name="can-focus">False</property>
+            <property name="margin-left">10</property>
+            <property name="margin-right">10</property>
+            <property name="pulse-step">0</property>
+            <property name="show-text">True</property>
           </object>
           <packing>
             <property name="expand">False</property>
@@ -377,34 +368,31 @@ schartz.thierry@gmail.com
     </child>
   </object>
   <object class="GtkDialog" id="rp.win.preferences">
-    <property name="can_focus">False</property>
+    <property name="can-focus">False</property>
     <property name="title" translatable="yes">Preferences</property>
     <property name="modal">True</property>
-    <property name="window_position">center-on-parent</property>
-    <property name="destroy_with_parent">True</property>
-    <property name="type_hint">dialog</property>
-    <property name="skip_taskbar_hint">True</property>
-    <property name="skip_pager_hint">True</property>
-    <child type="titlebar">
-      <placeholder/>
-    </child>
+    <property name="window-position">center-on-parent</property>
+    <property name="destroy-with-parent">True</property>
+    <property name="type-hint">dialog</property>
+    <property name="skip-taskbar-hint">True</property>
+    <property name="skip-pager-hint">True</property>
     <child internal-child="vbox">
       <object class="GtkBox">
-        <property name="can_focus">False</property>
+        <property name="can-focus">False</property>
         <property name="orientation">vertical</property>
         <property name="spacing">2</property>
         <child internal-child="action_area">
           <object class="GtkButtonBox">
-            <property name="can_focus">False</property>
-            <property name="layout_style">end</property>
+            <property name="can-focus">False</property>
+            <property name="layout-style">end</property>
             <child>
               <object class="GtkButton">
                 <property name="label">gtk-about</property>
                 <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <property name="receives_default">True</property>
-                <property name="use_stock">True</property>
-                <property name="always_show_image">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="use-stock">True</property>
+                <property name="always-show-image">True</property>
                 <signal name="clicked" handler="on_about_clicked" swapped="no"/>
               </object>
               <packing>
@@ -417,9 +405,9 @@ schartz.thierry@gmail.com
               <object class="GtkButton" id="rp.pref.cancel">
                 <property name="label">gtk-cancel</property>
                 <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <property name="receives_default">True</property>
-                <property name="use_stock">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="use-stock">True</property>
                 <signal name="clicked" handler="on_pref_cancel_clicked" swapped="no"/>
               </object>
               <packing>
@@ -432,9 +420,9 @@ schartz.thierry@gmail.com
               <object class="GtkButton" id="rp.pref.ok">
                 <property name="label">gtk-ok</property>
                 <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <property name="receives_default">True</property>
-                <property name="use_stock">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="use-stock">True</property>
                 <signal name="clicked" handler="on_pref_ok_clicked" swapped="no"/>
               </object>
               <packing>
@@ -451,77 +439,99 @@ schartz.thierry@gmail.com
           </packing>
         </child>
         <child>
+          <!-- n-columns=3 n-rows=3 -->
           <object class="GtkGrid">
             <property name="visible">True</property>
-            <property name="can_focus">False</property>
+            <property name="can-focus">False</property>
+            <property name="halign">start</property>
             <child>
               <object class="GtkLabel">
                 <property name="visible">True</property>
-                <property name="can_focus">False</property>
+                <property name="can-focus">False</property>
+                <property name="halign">end</property>
+                <property name="valign">center</property>
                 <property name="label" translatable="yes">Device to use : </property>
               </object>
               <packing>
-                <property name="left_attach">0</property>
-                <property name="top_attach">1</property>
+                <property name="left-attach">0</property>
+                <property name="top-attach">1</property>
               </packing>
             </child>
             <child>
               <object class="GtkEntry" id="rp.pref.edit1">
                 <property name="visible">True</property>
-                <property name="can_focus">True</property>
+                <property name="can-focus">True</property>
+                <property name="halign">center</property>
+                <property name="valign">center</property>
                 <property name="text" translatable="yes">/dev/ttyACM0</property>
-                <property name="primary_icon_stock">gtk-file</property>
+                <property name="primary-icon-stock">gtk-file</property>
               </object>
               <packing>
-                <property name="left_attach">1</property>
-                <property name="top_attach">1</property>
+                <property name="left-attach">1</property>
+                <property name="top-attach">1</property>
               </packing>
             </child>
             <child>
               <object class="GtkLabel">
                 <property name="visible">True</property>
-                <property name="can_focus">False</property>
+                <property name="can-focus">False</property>
+                <property name="halign">end</property>
+                <property name="valign">center</property>
                 <property name="label" translatable="yes">Autoconnect on startup (not yet implemented): </property>
               </object>
               <packing>
-                <property name="left_attach">0</property>
-                <property name="top_attach">0</property>
+                <property name="left-attach">0</property>
+                <property name="top-attach">0</property>
               </packing>
             </child>
             <child>
               <object class="GtkSwitch" id="rp.pref.switch1">
                 <property name="visible">True</property>
-                <property name="can_focus">True</property>
+                <property name="can-focus">True</property>
                 <property name="halign">center</property>
+                <property name="valign">center</property>
               </object>
               <packing>
-                <property name="left_attach">1</property>
-                <property name="top_attach">0</property>
+                <property name="left-attach">1</property>
+                <property name="top-attach">0</property>
               </packing>
             </child>
             <child>
               <object class="GtkLabel">
                 <property name="visible">True</property>
-                <property name="can_focus">False</property>
+                <property name="can-focus">False</property>
+                <property name="halign">end</property>
+                <property name="valign">center</property>
                 <property name="label" translatable="yes">Debug :</property>
-                <property name="width_chars">8</property>
-                <property name="max_width_chars">8</property>
+                <property name="width-chars">8</property>
+                <property name="max-width-chars">8</property>
               </object>
               <packing>
-                <property name="left_attach">0</property>
-                <property name="top_attach">2</property>
+                <property name="left-attach">0</property>
+                <property name="top-attach">2</property>
               </packing>
             </child>
             <child>
               <object class="GtkSwitch" id="rp.pref.debug">
                 <property name="visible">True</property>
-                <property name="can_focus">True</property>
+                <property name="can-focus">True</property>
+                <property name="halign">center</property>
+                <property name="valign">center</property>
                 <property name="active">True</property>
               </object>
               <packing>
-                <property name="left_attach">1</property>
-                <property name="top_attach">2</property>
+                <property name="left-attach">1</property>
+                <property name="top-attach">2</property>
               </packing>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
             </child>
           </object>
           <packing>
