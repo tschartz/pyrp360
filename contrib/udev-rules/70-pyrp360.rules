@@ -1,0 +1,2 @@
+# Digitech RP360/RP360XP Guitar Multi-Effect Floor Processor with USB Streaming
+ACTION=="add", SUBSYSTEM=="tty", ATTRS{idVendor}=="1210", ATTRS{idProduct}=="0032", TAG+="uaccess"
